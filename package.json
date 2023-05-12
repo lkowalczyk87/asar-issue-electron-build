@@ -12,6 +12,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && electron-builder --publish never -mwl",
+    "build-win": "tsc && vite build && electron-builder --publish never -w",
     "preview": "vite preview"
   },
   "dependencies": {
